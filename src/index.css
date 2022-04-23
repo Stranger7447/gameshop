@@ -564,3 +564,71 @@ footer p{
 	color: white;
 	margin-top: 50px;
 }
+
+.wrapper{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+}
+.CardDiv{
+    width: 900px;
+}
+.CardSec{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 30px;
+}
+.korzina{
+    font-weight: 500;
+    font-size: 20px;
+    margin:20px;
+}
+.price{
+    width: 400px;
+}
+.desc{
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    border-top: 2px solid #f3f3f3;
+    padding: 10px;
+}
+.cardprice{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.descInfo{
+    font-size: 18px;
+}
+.sum{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    border-top: 2px solid #5f5f5f;
+    padding: 10px;
+    font-weight: bold;
+}
+.confirmation{
+    margin-top: 100px;
+    align-items: center;
+    width: 300px;
+    height: 90px;
+    margin-left: 50px;
+    border-radius: 50px;
+    font-size: 25px;
+    background-color: #EB2D66;
+    color:wheat;
+    border: none;
+    cursor: pointer;
+}
+.confirmation:hover{
+    cursor: pointer;
+
+}
