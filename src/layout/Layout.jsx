@@ -41,6 +41,9 @@ const Layout = ({ children }) => {
                             </div>
                         </div>
                         <img src={cart} alt="Search" className="cart" />
+                             <Link to="/login">
+                                <img src={user} alt="user" className="user"/>
+                            </Link>
                     </div>
                 </header>
             </div>
